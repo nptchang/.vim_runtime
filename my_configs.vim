@@ -38,7 +38,6 @@ map <F9> :!clear;python3 %<cr>
 
 
 
-" let t_Co=16
 
 
 
