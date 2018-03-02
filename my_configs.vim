@@ -38,18 +38,12 @@ map <F9> :!clear;python3 %<cr>
 
 
 
-
+" let t_Co=16
 
 
 
 
 " color correction for MobaXTerm
-if has("terminfo")
-  let &t_Co=16
-  let &t_AB="\<Esc>[%?%p1%{8}%<%t%p1%{40}%+%e%p1%{92}%+%;%dm"
-  let &t_AF="\<Esc>[%?%p1%{8}%<%t%p1%{30}%+%e%p1%{82}%+%;%dm"
-else
-  let &t_Co=16
-  let &t_Sf="\<Esc>[3%dm"
-  let &t_Sb="\<Esc>[4%dm"
+if &term =~ "xterm" and has("terminfo")
+    let &t_Co=16
 endif
