@@ -1,0 +1,3 @@
+[submodule "sources_non_forked/python-syntax"]
+	path = sources_non_forked/python-syntax
+	url = http://github.com/vim-python/python-syntax
