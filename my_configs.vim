@@ -41,7 +41,6 @@ map <F9> :!clear;python3 %<cr>
 
 
 
-
 " color correction for MobaXTerm
 if &term =~ "xterm" and has("terminfo")
     let &t_Co=16
