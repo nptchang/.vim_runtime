@@ -39,6 +39,12 @@ colorscheme solarized
 set number
 " set relativenumber
 
+" Height of the command bar
+set cmdheight=1
+
+" Add a bit extra margin to the left
+set foldcolumn=0
+
 " Set font according to system
 if has("mac") || has("macunix")
     set gfn=Source\ Code\ Pro:h15,IBM\ Plex\ Mono:h14,Hack:h14,Menlo:h15
