@@ -21,7 +21,9 @@ map <F8> :!clear;python3 %<cr>
 " python-syntax
 let g:python_highlight_all = 1
 
-
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 
 
