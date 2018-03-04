@@ -4,3 +4,6 @@
 [submodule "sources_non_forked/vim-airline"]
 	path = sources_non_forked/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "sources_non_forked/vim-airline-themes"]
+	path = sources_non_forked/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
