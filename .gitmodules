@@ -7,3 +7,6 @@
 [submodule "sources_non_forked/vim-airline-themes"]
 	path = sources_non_forked/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "sources_non_forked/vim-indent-guides"]
+	path = sources_non_forked/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
