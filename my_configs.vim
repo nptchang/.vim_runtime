@@ -38,11 +38,11 @@ set number
 " set relativenumber
 
 " color correction for MobaXTerm
-if &term =~ "xterm"
-    if has("terminfo")
-        let &t_Co=16
-    endif
-endif
+" if &term =~ "xterm"
+"    if has("terminfo")
+"        let &t_Co=16
+"    endif
+" endif
 
 " Set font according to system
 if has("mac") || has("macunix")
