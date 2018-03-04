@@ -37,13 +37,6 @@ colorscheme solarized
 set number
 " set relativenumber
 
-" color correction for MobaXTerm
-" if &term =~ "xterm"
-"    if has("terminfo")
-"        let &t_Co=16
-"    endif
-" endif
-
 " Set font according to system
 if has("mac") || has("macunix")
     set gfn=Source\ Code\ Pro:h15,IBM\ Plex\ Mono:h14,Hack:h14,Menlo:h15
