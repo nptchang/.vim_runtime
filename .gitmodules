@@ -1,3 +1,6 @@
 [submodule "sources_non_forked/python-syntax"]
 	path = sources_non_forked/python-syntax
 	url = https://github.com/vim-python/python-syntax.git
+[submodule "sources_non_forked/vim-airline"]
+	path = sources_non_forked/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
