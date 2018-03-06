@@ -16,10 +16,10 @@
     map 0 0
     map <leader>q <Nop>
     map <leader>x <Nop>
-    map <leader>cc <Nop> " quickfix
-    map <leader>co <Nop> " quickfix
-    map <leader>n <Nop> " quickfix
-    map <leader>p <Nop> " quickfix
+    map <leader>cc <Nop> " i don't use quickfix
+    map <leader>co <Nop> " i don't use quickfix
+    map <leader>n <Nop> " i don't use quickfix
+    map <leader>p <Nop> " i don't use quickfix
     " au FileType python map <buffer> <leader>1 <Nop> 
     " au FileType python map <buffer> <leader>2 <Nop> 
     " au FileType python map <buffer> <leader>C <Nop> 
@@ -97,6 +97,7 @@ let g:lightline = {
 
 " easymotion
     nmap <space> <Plug>(easymotion-s)
+
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "         UI, theme, color, font, etc            "
 """"""""""""""""""""""""""""""""""""""""""""""""""
