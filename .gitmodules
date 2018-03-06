@@ -1,12 +1,12 @@
-[submodule "sources_non_forked/python-syntax"]
+[submodule "python-syntax"]
 	path = my_plugins/python-syntax
 	url = https://github.com/vim-python/python-syntax.git
-[submodule "sources_non_forked/vim-airline"]
+[submodule "vim-airline"]
 	path = my_plugins/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
-[submodule "sources_non_forked/vim-airline-themes"]
+[submodule "vim-airline-themes"]
 	path = my_plugins/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
-[submodule "sources_non_forked/vim-indent-guides"]
+[submodule "vim-indent-guides"]
 	path = my_plugins/vim-indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
