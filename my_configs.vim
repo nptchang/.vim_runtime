@@ -82,8 +82,14 @@
     let g:python_highlight_all = 1
 
 " vim-airline
-    let g:airline#extensions#tabline#enabled = 1
-    let g:airline#extensions#tabline#formatter = 'unique_tail'
+    " let g:airline#extensions#tabline#enabled = 1
+    " let g:airline#extensions#tabline#formatter = 'unique_tail'
+
+" lightline
+    set noshowmode
+let g:lightline = {
+      \ 'colorscheme': 'solarized',
+      \ }
 
 " indent-guides
     let g:indent_guides_enable_on_vim_startup = 1
