@@ -8,3 +8,6 @@
 [submodule "my_plugins/vim-buftabline"]
 	path = my_plugins/vim-buftabline
 	url = https://github.com/ap/vim-buftabline.git
+[submodule "my_plugins/vim-easymotion"]
+	path = my_plugins/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
