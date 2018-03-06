@@ -5,3 +5,6 @@
 	path = my_plugins/python-syntax
 	url = https://github.com/vim-python/python-syntax.git
     ignore = untracked
+[submodule "my_plugins/vim-buftabline"]
+	path = my_plugins/vim-buftabline
+	url = https://github.com/ap/vim-buftabline.git

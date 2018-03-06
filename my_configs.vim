@@ -33,8 +33,8 @@
 
 " Managing buffer
     map <leader>t :e ~/buffer<cr> " Quickly open a buffer for scribble
-    map <leader>3 :bnext<cr>
-    map <leader>2 :bprevious<cr>
+    map <leader>3 :bn<cr>
+    map <leader>2 :bp<cr>
     map <leader>w :bd<cr>
     map <leader>aw :bufdo bd<cr>
 
