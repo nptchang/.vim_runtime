@@ -1,0 +1,6 @@
+[submodule "my_plugins/python-syntax"]
+	path = my_plugins/python-syntax
+	url = https://github.com/vim-python/python-syntax.git
+[submodule "my_plugins/vim-indent-guides"]
+	path = my_plugins/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
