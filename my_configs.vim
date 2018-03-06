@@ -81,10 +81,6 @@
 " python-syntax
     let g:python_highlight_all = 1
 
-" vim-airline
-    " let g:airline#extensions#tabline#enabled = 1
-    " let g:airline#extensions#tabline#formatter = 'unique_tail'
-
 " lightline
     set noshowmode
 let g:lightline = {
@@ -99,6 +95,8 @@ let g:lightline = {
     autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=white   ctermbg=lightgrey
     autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=white   ctermbg=lightgrey
 
+" easymotion
+    nmap <space> <Plug>(easymotion-s)
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "         UI, theme, color, font, etc            "
 """"""""""""""""""""""""""""""""""""""""""""""""""
