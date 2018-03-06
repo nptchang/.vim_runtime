@@ -20,10 +20,10 @@
     map <leader>co <Nop> " quickfix
     map <leader>n <Nop> " quickfix
     map <leader>p <Nop> " quickfix
-    au FileType python map <buffer> <leader>1 <Nop> 
-    au FileType python map <buffer> <leader>2 <Nop> 
-    au FileType python map <buffer> <leader>C <Nop> 
-    au FileType python map <buffer> <leader>D <Nop> 
+    " au FileType python map <buffer> <leader>1 <Nop> 
+    " au FileType python map <buffer> <leader>2 <Nop> 
+    " au FileType python map <buffer> <leader>C <Nop> 
+    " au FileType python map <buffer> <leader>D <Nop> 
 
 " Move a line of text
     nmap <Leader>dj <M-j>
