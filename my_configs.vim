@@ -57,6 +57,7 @@
 "              Worth Remembering                 "
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
+
 " Switch CWD to the directory of the open buffer
     " map <leader>cd :cd %:p:h<cr>:pwd<cr>
 
@@ -75,6 +76,21 @@
 " CtrlP
     " <c-f> to toggle (press 3 times to enter MRU mode)
     " <c-j> & <c-k> to move
+
+" commentary
+    " use gcc to comment out a line
+    " use gc to comment out the target of a motion
+    " use gcu to uncomments a set of adjacent commented lines
+
+" indent object
+    " <count>ii -> inner indentation level
+    " <count>ai -> inner indentation level + line above (useful in Python)
+    " <count>aI -> inner indentation level + line above/below
+    " (<count> include v, d, c, etc.)
+
+
+
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "                  Plug-Ins                      "
