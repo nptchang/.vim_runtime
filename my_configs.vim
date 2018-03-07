@@ -72,7 +72,9 @@
     " map <leader>sa zg " add to dictionary
     " map <leader>s? z= " possible alternatives
 
-
+" CtrlP
+    " <c-f> to toggle (press 3 times to enter MRU mode)
+    " <c-j> & <c-k> to move
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "                  Plug-Ins                      "
