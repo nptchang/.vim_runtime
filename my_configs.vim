@@ -88,6 +88,8 @@
     " <count>aI -> inner indentation level + line above/below
     " (<count> include v, d, c, etc.)
 
+" toggle Goyo
+    " nnoremap <silent> <leader>z :Goyo<cr>
 
 
 
