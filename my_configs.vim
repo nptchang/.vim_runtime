@@ -118,6 +118,14 @@ let g:lightline = {
 " easymotion
     nmap <space> <Plug>(easymotion-s)
 
+" vim-markdown
+    " let g:vim_markdown_folding_disabled = 1   " disable folding
+    let g:vim_markdown_folding_style_pythonic = 1
+    let g:vim_markdown_folding_level = 6
+
+
+
+
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "         UI, theme, color, font, etc            "
 """"""""""""""""""""""""""""""""""""""""""""""""""
