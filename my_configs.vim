@@ -47,7 +47,7 @@
     map <leader>tm :tabmove 
 
 " quickly run python file
-    map <F8> :!clear;python3 %<cr>
+    au FileType python map <F8> :!clear;python3 %<cr>
 
 
 
