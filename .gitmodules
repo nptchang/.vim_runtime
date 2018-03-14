@@ -14,3 +14,6 @@
 [submodule "my_plugins/vim-instant-markdown"]
 	path = my_plugins/vim-instant-markdown
 	url = https://github.com/suan/vim-instant-markdown.git
+[submodule "my_plugins/vim-table-mode"]
+	path = my_plugins/vim-table-mode
+	url = https://github.com/dhruvasagar/vim-table-mode.git

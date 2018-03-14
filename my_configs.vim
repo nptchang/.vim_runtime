@@ -123,8 +123,22 @@ let g:lightline = {
     let g:vim_markdown_folding_style_pythonic = 1
     let g:vim_markdown_folding_level = 6
 
+" vim-table-mode
+    let g:table_mode_corner='|'  "table for markdown
+    " <leader>tm -> toggle :TableModeToggle    
+    " Cell Text Object -> i| & a|
+    " delete row: <leader>tdd
+    " delete column: <leader>tdc
+    " moving around cells: [|, ]|, {|, }|
 
 
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+"                  FileType                      "
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Markdown
+au BufNewFile, BufRead, BufWrite *.md syntax match Comment /\%^---\_.\{-}---$/
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "         UI, theme, color, font, etc            "
