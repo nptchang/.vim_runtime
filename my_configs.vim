@@ -73,6 +73,11 @@
     " map <leader>sa zg " add to dictionary
     " map <leader>s? z= " possible alternatives
 
+" Yankstack
+    " after paste, press the folloiwng to switch 
+    " nmap <c-p> <Plug>yankstack_substitute_older_paste
+    " nmap <c-n> <Plug>yankstack_substitute_newer_paste
+
 " CtrlP
     " <c-f> to toggle (press 3 times to enter MRU mode)
     " <c-j> & <c-k> to move
