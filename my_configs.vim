@@ -132,7 +132,9 @@ let g:lightline = {
 
 " vim-table-mode
     let g:table_mode_corner='|'  "table for markdown
-    let g:table_mode_delimiter=','
+    let g:table_mode_delimiter=',' "table for markdown
+    " let g:table_mode_corner_corner='+' "grid table
+    " let g:table_mode_header_fillchar='=' "grid table
     " <leader>tm -> toggle :TableModeToggle    
     " Cell Text Object -> i| & a|
     " delete row: <leader>tdd
