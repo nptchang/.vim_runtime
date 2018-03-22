@@ -49,6 +49,8 @@
 " quickly run python file
     au FileType python map <F8> :!clear;python3 %<cr>
 
+" quick convert .md to .pdf
+    au FileType markdown map <F8> :!clear;pandoc "%:p" -o "%:p:r".pdf --pdf-engine=xelatex --template=pm-template.latex<cr>
 
 
 
