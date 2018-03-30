@@ -128,7 +128,7 @@ let g:lightline = {
 " vim-markdown
     " let g:vim_markdown_folding_disabled = 1   " disable folding
     let g:vim_markdown_folding_style_pythonic = 1
-    let g:vim_markdown_folding_level = 6
+    " let g:vim_markdown_folding_level = 6
 
 " vim-table-mode
     let g:table_mode_corner='|'  "table for markdown
@@ -141,6 +141,15 @@ let g:lightline = {
     " delete column: <leader>tdc
     " moving around cells: [|, ]|, {|, }|
 
+" fcitx
+    " set timeoutlen=1000
+    " set ttimeoutlen=0
+
+" vim-instant-markdown
+    let g:instant_markdown_autostart = 0
+    let g:instant_markdown_slow = 1
+
+
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
@@ -148,7 +157,7 @@ let g:lightline = {
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
 " Markdown
-au BufNewFile, BufRead, BufWrite *.md syntax match Comment /\%^---\_.\{-}---$/
+" au BufNewFile, BufRead, BufWrite *.md syntax match Comment /\%^---\_.\{-}---$/
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "         UI, theme, color, font, etc            "
@@ -160,7 +169,7 @@ au BufNewFile, BufRead, BufWrite *.md syntax match Comment /\%^---\_.\{-}---$/
 
 " Line Numbers
     set number
-    " set relativenumber
+    set relativenumber
 
 " Height of the command bar
     set cmdheight=1
