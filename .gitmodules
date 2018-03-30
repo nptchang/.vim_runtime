@@ -14,3 +14,6 @@
 [submodule "my_plugins/vim-table-mode"]
 	path = my_plugins/vim-table-mode
 	url = https://github.com/dhruvasagar/vim-table-mode.git
+[submodule "my_plugins/fcitx-vim-osx"]
+	path = my_plugins/fcitx-vim-osx
+	url = https://github.com/CodeFalling/fcitx-vim-osx.git
