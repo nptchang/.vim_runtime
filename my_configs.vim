@@ -147,10 +147,9 @@ let g:lightline = {
     " set timeoutlen=1000
     " set ttimeoutlen=0
 
-" vim-instant-markdown
-    " let g:instant_markdown_autostart = 0
-    let g:instant_markdown_slow = 1
-
+" vim-markdown-preview
+    let vim_markdown_preview_browser='Google Chrome'
+    let vim_markdown_preview_pandoc=1
 
 
 
