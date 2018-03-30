@@ -131,10 +131,12 @@ let g:lightline = {
     " let g:vim_markdown_folding_level = 6
 
 " vim-table-mode
-    let g:table_mode_corner='|'  "table for markdown
-    let g:table_mode_delimiter=',' "table for markdown
-    " let g:table_mode_corner_corner='+' "grid table
-    " let g:table_mode_header_fillchar='=' "grid table
+    " markdown table
+        " let g:table_mode_corner='|'  
+        " let g:table_mode_delimiter=',' 
+    " grid table
+        let g:table_mode_corner_corner='+' 
+        let g:table_mode_header_fillchar='='
     " <leader>tm -> toggle :TableModeToggle    
     " Cell Text Object -> i| & a|
     " delete row: <leader>tdd
@@ -146,7 +148,7 @@ let g:lightline = {
     " set ttimeoutlen=0
 
 " vim-instant-markdown
-    let g:instant_markdown_autostart = 0
+    " let g:instant_markdown_autostart = 0
     let g:instant_markdown_slow = 1
 
 
