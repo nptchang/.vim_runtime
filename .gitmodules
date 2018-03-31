@@ -17,3 +17,4 @@
 [submodule "my_plugins/fcitx-vim-osx"]
 	path = my_plugins/fcitx-vim-osx
 	url = https://github.com/CodeFalling/fcitx-vim-osx.git
+    ignore = untracked
