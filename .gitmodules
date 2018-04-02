@@ -18,3 +18,12 @@
 	path = my_plugins/fcitx-vim-osx
 	url = https://github.com/CodeFalling/fcitx-vim-osx.git
     ignore = untracked
+[submodule "my_plugins/vim-pandoc"]
+	path = my_plugins/vim-pandoc
+	url = https://github.com/vim-pandoc/vim-pandoc.git
+[submodule "my_plugins/vim-pandoc-syntax"]
+	path = my_plugins/vim-pandoc-syntax
+	url = https://github.com/vim-pandoc/vim-pandoc-syntax
+[submodule "my_plugins/vim-pandoc-after"]
+	path = my_plugins/vim-pandoc-after
+	url = https://github.com/vim-pandoc/vim-pandoc-after

@@ -129,6 +129,9 @@ let g:lightline = {
     " let g:vim_markdown_folding_disabled = 1   " disable folding
     let g:vim_markdown_folding_style_pythonic = 1
     " let g:vim_markdown_folding_level = 6
+    let g:vim_markdown_toc_autofit = 1
+    " ':Toc':  create a quickfix vertical window navigable table of contents with the headers (<Enter> to jump)
+    " ':HeaderDecrease' & ':HeaderIncrease'
 
 " vim-table-mode
     " markdown table
