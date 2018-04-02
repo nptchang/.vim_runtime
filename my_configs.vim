@@ -125,14 +125,6 @@ let g:lightline = {
 " easymotion
     nmap <space> <Plug>(easymotion-s)
 
-" vim-markdown
-    " let g:vim_markdown_folding_disabled = 1   " disable folding
-    let g:vim_markdown_folding_style_pythonic = 1
-    " let g:vim_markdown_folding_level = 6
-    let g:vim_markdown_toc_autofit = 1
-    " ':Toc':  create a quickfix vertical window navigable table of contents with the headers (<Enter> to jump)
-    " ':HeaderDecrease' & ':HeaderIncrease'
-
 " vim-table-mode
     " markdown table
         let g:table_mode_corner='|'  
@@ -151,9 +143,21 @@ let g:lightline = {
     " set ttimeoutlen=0
 
 " vim-markdown-preview
-    let vim_markdown_preview_browser='Google Chrome'
-    let vim_markdown_preview_pandoc=1
+    " let vim_markdown_preview_browser='Google Chrome'
+    " let vim_markdown_preview_pandoc=1
 
+" vim-markdown
+    " let g:vim_markdown_folding_style_pythonic = 1
+    " let g:vim_markdown_toc_autofit = 1
+    " ':Toc':  create a quickfix vertical window navigable table of contents with the headers (<Enter> to jump)
+    " ':HeaderDecrease' & ':HeaderIncrease'
+
+" vim-pandoc
+    let g:pandoc#spell#enabled = 0
+    
+
+" vim-pandoc-after
+    " let g:pandoc#after#modules#enabled = ["tablemode"]
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
