@@ -157,7 +157,7 @@ let g:lightline = {
     
 
 " vim-pandoc-after
-    " let g:pandoc#after#modules#enabled = ["tablemode"]
+    let g:pandoc#after#modules#enabled = ["tablemode"]
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
