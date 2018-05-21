@@ -154,6 +154,7 @@ let g:lightline = {
 
 " vim-pandoc
     let g:pandoc#spell#enabled = 0
+    let g:pandoc#toc#position = "bottom"
     
 
 " vim-pandoc-after
