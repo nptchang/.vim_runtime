@@ -52,6 +52,9 @@
 " quick convert .md to .pdf
     au FileType markdown map <F8> :!clear;pandoc "%:p" -o "%:p:r".pdf --pdf-engine=xelatex --template=pm-template.latex<cr>
 
+" quick convert 爲 to 為
+    au FileType markdown map <F2> :%s/爲/為/g<cr>
+
 
 
 
