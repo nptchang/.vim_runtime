@@ -198,3 +198,9 @@ let g:lightline = {
     elseif has("unix")
         set gfn=Monospace\ 11
     endif
+
+
+" Italics
+
+let &t_ZH="\e[3m"
+let &t_ZR="\e[23m"
